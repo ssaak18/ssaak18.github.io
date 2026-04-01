@@ -1,5 +1,5 @@
 :root {
-  --bg: #faf3ef;
+  --bg: #ffffff;
   --panel: #faf3ef;
   --ink: #050505;
   --muted: #4a5560;
@@ -143,7 +143,6 @@ code {
   align-items: start;
 }
 
-.portrait-panel,
 .resume-viewer,
 .project-card,
 .bio-panel {
@@ -151,13 +150,12 @@ code {
   background: var(--panel);
 }
 
-.portrait-panel {
-  padding: 1rem;
-  background: var(--panel);
-}
-
 .portrait {
   border: 2px solid var(--line);
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
 }
 
 .bio-panel {
