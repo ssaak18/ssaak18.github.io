@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="FRC placeholder">
-  <rect width="960" height="600" fill="#eef8ff" />
-  <rect x="36" y="36" width="888" height="528" fill="#ffffff" stroke="#050505" stroke-width="8" />
-  <rect x="66" y="66" width="828" height="38" fill="#a8dbff" stroke="#050505" stroke-width="6" />
-  <circle cx="336" cy="336" r="56" fill="#ffffff" stroke="#050505" stroke-width="8" />
-  <circle cx="620" cy="336" r="56" fill="#ffffff" stroke="#050505" stroke-width="8" />
-  <path d="M336 280V194h128l60 86h96v56H336z" fill="#dff2ff" stroke="#050505" stroke-width="8" stroke-linejoin="round" />
-  <text x="480" y="490" text-anchor="middle" font-family="Courier New, monospace" font-size="38" letter-spacing="8" fill="#050505">FRC</text>
-</svg>
