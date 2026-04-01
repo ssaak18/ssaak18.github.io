@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Photo editor project placeholder">
+  <rect width="960" height="600" fill="#eef8ff" />
+  <rect x="36" y="36" width="888" height="528" fill="#ffffff" stroke="#050505" stroke-width="8" />
+  <rect x="66" y="66" width="828" height="38" fill="#a8dbff" stroke="#050505" stroke-width="6" />
+  <rect x="224" y="162" width="512" height="270" fill="#f8fcff" stroke="#050505" stroke-width="8" />
+  <circle cx="406" cy="286" r="44" fill="#dff2ff" stroke="#050505" stroke-width="8" />
+  <circle cx="554" cy="286" r="44" fill="#dff2ff" stroke="#050505" stroke-width="8" />
+  <path d="M406 332c30 22 56 32 74 32 18 0 44-10 74-32" fill="none" stroke="#050505" stroke-width="8" stroke-linecap="round" />
+  <text x="480" y="500" text-anchor="middle" font-family="Courier New, monospace" font-size="32" letter-spacing="6" fill="#050505">PHOTO EDITOR</text>
+</svg>

@@ -1,11 +1,11 @@
 :root {
-  --bg: #f6fbff;
-  --panel: #ffffff;
+  --bg: #ffffff;
+  --panel: #faf3ef;
   --ink: #050505;
   --muted: #4a5560;
   --line: #050505;
-  --accent: #a8dbff;
-  --accent-strong: #63bff8;
+  --accent: #9ecfe6;
+  --accent-strong: #9ecfe6;
   --shadow: 8px 8px 0 #050505;
 }
 
@@ -22,16 +22,7 @@ body {
   min-height: 100vh;
   font-family: "Courier New", Courier, monospace;
   color: var(--ink);
-  background:
-    linear-gradient(180deg, rgba(168, 219, 255, 0.35), rgba(246, 251, 255, 0.95)),
-    repeating-linear-gradient(
-      0deg,
-      rgba(5, 5, 5, 0.02) 0,
-      rgba(5, 5, 5, 0.02) 1px,
-      transparent 1px,
-      transparent 30px
-    ),
-    var(--bg);
+  background: var(--bg);
 }
 
 img {
@@ -72,7 +63,7 @@ code {
   gap: 1rem;
   padding: 0.75rem 1rem;
   border-bottom: 2px solid var(--line);
-  background: linear-gradient(90deg, var(--accent), #e8f7ff);
+  background: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.12em;
   font-size: 0.72rem;
@@ -101,7 +92,7 @@ code {
   gap: 1rem;
   padding: 1rem;
   border-bottom: 2px solid var(--line);
-  background: #fbfdff;
+  background: var(--panel);
 }
 
 .brand {
@@ -162,9 +153,7 @@ code {
 
 .portrait-panel {
   padding: 1rem;
-  background:
-    radial-gradient(circle at top left, rgba(168, 219, 255, 0.45), transparent 40%),
-    var(--panel);
+  background: var(--panel);
 }
 
 .portrait {
@@ -227,7 +216,7 @@ h3 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1.2rem;
 }
 
@@ -240,15 +229,23 @@ h3 {
   aspect-ratio: 16 / 10;
   object-fit: cover;
   border-bottom: 2px solid var(--line);
-  background: #eef8ff;
+  background: var(--accent);
 }
 
 .project-copy {
   padding: 1.1rem;
 }
 
+.project-actions {
+  margin: 1rem 0 0;
+}
+
 .resume-actions {
   margin-bottom: 1rem;
+}
+
+.resume-viewer {
+  box-shadow: none;
 }
 
 .resume-viewer iframe {
@@ -256,7 +253,7 @@ h3 {
   min-height: 760px;
   border: 0;
   display: block;
-  background: #dbefff;
+  background: #ffffff;
 }
 
 @keyframes fade-in {
@@ -287,10 +284,16 @@ h3 {
   }
 
   .project-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .resume-viewer iframe {
     min-height: 580px;
+  }
+}
+
+@media (max-width: 640px) {
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 }

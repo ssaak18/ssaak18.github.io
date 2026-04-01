@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="TACTIC placeholder">
+  <rect width="960" height="600" fill="#eef8ff" />
+  <rect x="36" y="36" width="888" height="528" fill="#ffffff" stroke="#050505" stroke-width="8" />
+  <rect x="66" y="66" width="828" height="38" fill="#a8dbff" stroke="#050505" stroke-width="6" />
+  <path d="M246 360l86-86 68 68 138-138 176 176" fill="none" stroke="#050505" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+  <circle cx="246" cy="360" r="18" fill="#dff2ff" stroke="#050505" stroke-width="8" />
+  <circle cx="538" cy="204" r="18" fill="#dff2ff" stroke="#050505" stroke-width="8" />
+  <text x="480" y="486" text-anchor="middle" font-family="Courier New, monospace" font-size="40" letter-spacing="8" fill="#050505">TACTIC</text>
+</svg>

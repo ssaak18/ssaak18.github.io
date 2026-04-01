@@ -9,6 +9,7 @@ Static personal portfolio site designed for GitHub Pages.
 - `portfolio/index.html`: portfolio page with project cards
 - `resume/index.html`: resume page with embedded PDF and download button
 - `styles.css`: black-and-white retro UI styling with sky-blue accents
+- `images/`: your headshot and project PNG files
 - `assets/`: placeholder images, favicon, and resume PDF
 - `.nojekyll`: tells GitHub Pages to serve the site as plain static files
 
@@ -23,8 +24,8 @@ Static personal portfolio site designed for GitHub Pages.
 
 ## Customize
 
-- Replace `assets/headshot-placeholder.svg` with your real headshot.
-- Replace the placeholder project images with screenshots or GIFs.
+- Add your headshot as `images/headshot.png`.
+- Add project images as `images/tactic.png`, `images/wamp.png`, `images/nerc.png`, `images/autopilot.png`, `images/critters.png`, `images/frc.png`, `images/website.png`, and `images/dog.png`.
 - Update the bio and external links in `home/index.html`.
 - Update the project cards in `portfolio/index.html`.
 - Update the resume page in `resume/index.html` if you change filenames.
