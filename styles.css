@@ -1,5 +1,5 @@
 :root {
-  --bg: #ffffff;
+  --bg: #faf3ef;
   --panel: #faf3ef;
   --ink: #050505;
   --muted: #4a5560;
@@ -246,6 +246,8 @@ h3 {
 
 .resume-viewer {
   box-shadow: none;
+  background: transparent;
+  margin-top: 1.25rem;
 }
 
 .resume-viewer iframe {
@@ -253,7 +255,7 @@ h3 {
   min-height: 760px;
   border: 0;
   display: block;
-  background: #ffffff;
+  background: var(--panel);
 }
 
 @keyframes fade-in {
