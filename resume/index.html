@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Resume page with embedded PDF preview and downloadable resume."
+    />
+    <title>Samm Saak | Resume</title>
+    <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="window-frame hero-frame">
+        <div class="window-titlebar">
+          <span class="titlebar-dot"></span>
+          <p>portfolio.exe</p>
+          <span class="titlebar-status">resume</span>
+        </div>
+
+        <nav class="top-nav" aria-label="Primary navigation">
+          <a class="brand" href="../home/">SAMM // ROBOTICS</a>
+          <div class="nav-links">
+            <a class="nav-link" href="../home/">Home</a>
+            <a class="nav-link" href="../portfolio/">Portfolio</a>
+            <a class="nav-link is-active" href="../resume/">Resume</a>
+          </div>
+        </nav>
+
+        <main class="page-panel">
+          <div class="section-heading">
+            <p class="eyebrow">RESUME</p>
+            <h2>View and download</h2>
+            <p>
+              The embedded PDF below is a placeholder. Replace
+              <code>../assets/resume-placeholder.pdf</code> with your final resume
+              file when you are ready.
+            </p>
+          </div>
+
+          <div class="resume-actions">
+            <a class="button-link" href="../assets/resume-placeholder.pdf" download>
+              Download Resume PDF
+            </a>
+          </div>
+
+          <div class="resume-viewer window-frame">
+            <div class="window-titlebar">
+              <span class="titlebar-dot"></span>
+              <p>resume.pdf</p>
+              <span class="titlebar-status">preview</span>
+            </div>
+            <iframe
+              title="Resume PDF preview"
+              src="../assets/resume-placeholder.pdf"
+            ></iframe>
+          </div>
+        </main>
+      </header>
+    </div>
+  </body>
+</html>
